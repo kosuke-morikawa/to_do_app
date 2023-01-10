@@ -8,6 +8,6 @@ class TasksController < ApplicationController
   end
 
   def create
-    render plain: "TASKを追加しました"
+    redirect_to "/tasks"
   end
 end
