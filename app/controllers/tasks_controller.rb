@@ -6,4 +6,8 @@ class TasksController < ApplicationController
   def new
     
   end
+
+  def create
+    render plain: "TASKを追加しました"
+  end
 end
